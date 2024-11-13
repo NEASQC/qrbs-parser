@@ -23,7 +23,7 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 setup(
-    name="mylib",
+    name="qrbs_parser",
     version=os.getenv("TAG_NAME", "0.0.1"),
     author="XXX",
     license="European Union Public License 1.2",
